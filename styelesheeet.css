@@ -299,6 +299,22 @@ body {
       .content__header {
         font-size: 2.5rem;
     }
+    .content__link:hover, .content__link:active {
+        background-color: var(--color-cyan);
+    }
+    .content--color:hover, .content--color:active {
+        color: var(--color-white);
+    }
+    .content__button:hover, .content__button:active {
+        background-color: var(--color-light-purple);
+    }
+    .experience__button:hover, .experience__button:active {
+        background-color: var(--color-light-purple);
+    }
+    .experience--color:hover, .experience--color:active {
+        color: var(--color-white);
+    }
+    
 }
 
   /* Desktop View */
@@ -369,6 +385,21 @@ body {
       }
       .content__header {
         font-size: 2.5rem;
+    }
+    .content__link:hover, .content__link:active {
+        background-color: var(--color-cyan);
+    }
+    .content--color:hover, .content--color:active {
+        color: var(--color-white);
+    }
+    .content__button:hover, .content__button:active {
+        background-color: var(--color-light-purple);
+    }
+    .experience__button:hover, .experience__button:active {
+        background-color: var(--color-light-purple);
+    }
+    .experience--color:hover, .experience--color:active {
+        color: var(--color-white);
     }
   }
  
